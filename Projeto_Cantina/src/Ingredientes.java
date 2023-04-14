@@ -1,6 +1,17 @@
 import java.util.ArrayList;
 
 public class Ingredientes {
-    private ArrayList<nome>;
-    ArrayList
+    private String nomeIngrediente;
+
+    public Ingredientes(String nomeIngrediente) {
+        this.nomeIngrediente = nomeIngrediente;
+    }
+
+    public String getNomeIngrediente() {
+        return nomeIngrediente;
+    }
+
+    public void setNomeIngrediente(String nomeIngrediente) {
+        this.nomeIngrediente = nomeIngrediente;
+    }
 }

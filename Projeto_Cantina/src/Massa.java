@@ -2,11 +2,6 @@ public class Massa {
     private String tipoDeMassa;
     private double valor;
 
-    public Massa(String tipoDeMassa, double valor) {
-        this.tipoDeMassa = tipoDeMassa;
-        this.valor = valor;
-    }
-
     public String getTipoDeMassa() {
         return tipoDeMassa;
     }
